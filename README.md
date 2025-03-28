@@ -5,8 +5,7 @@ It's a minimal out of the box docker sample.<br/>
 
 Files:<br/>
 Dockerfile: describes docker instructions<br/>
-package.json: contains dependencies needed to run the serverside application<br/>
-app.js: serverside application (simple express server)<br/>
+src/main.go: serverside application (simple echo server)<br/>
 
 
 Create a image named "docker_go_sample" from the Dockerfile:<br/>
